@@ -1,0 +1,25 @@
+{
+  "name": "ottowayne/sqlite-migration-fix",
+  "description": "Laravel package to fix SQLite migrations by making all columns nullable in testing environments",
+  "keywords": ["laravel", "sqlite", "migration", "schema", "schemabuilder"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ottowayne",
+      "email": "mr.ottowayne@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "5.0.x",
+    "illuminate/console": "5.0.x",
+    "illuminate/filesystem": "5.0.x",
+    "doctrine/dbal": "~2.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ottowayne\\SQLiteMigrationFix\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
